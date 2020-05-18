@@ -15,7 +15,6 @@ import java.util.*
 
 class AddInfoActivity : AppCompatActivity() {
 
-    private val handler = Handler(Looper.myLooper())
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -24,6 +23,9 @@ class AddInfoActivity : AppCompatActivity() {
         initView()
     }
 
+    /*
+  * initialize the view and add data
+  * */
     fun initView() {
         button.setOnClickListener {
             when {

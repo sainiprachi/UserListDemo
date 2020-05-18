@@ -21,6 +21,11 @@ class UpdateInfoActivity :AppCompatActivity (){
         initView()
     }
 
+
+    /*
+    * initialize the view and update data
+    * */
+
     private fun initView() {
         var userModel=UserModel()
         if (intent!=null){
